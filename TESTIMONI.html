@@ -38,6 +38,9 @@
         <div class="collapse navbar-collapse text-right" id="navbarText">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="layanan.html">LAYANAN</a>
             </li>
             <li class="nav-item">
@@ -90,9 +93,60 @@
           </div>
         </div>
       </div>
+      <!--MODAL-->
+      <div class="container text-center">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">MASUKAN</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Masukan</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Kepada R O E F :</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Pesan :</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--MODAL END-->
+
       <div class="container text-center pt-5 pb-5">
         www.roef.com &copy; 2024
       </div>
+      <!--PAGINATION-->
+     <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="STOK.html">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="layanan.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="STOK.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="TESTIMONI.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="PROFIL.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="KONTAK.html">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="KONTAK.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+    <!--PAGINATION END-->
       <script
         src="js/bootstrap.js"
       ></script>
